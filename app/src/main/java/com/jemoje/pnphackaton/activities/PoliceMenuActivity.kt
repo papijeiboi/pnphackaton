@@ -56,6 +56,7 @@ class PoliceMenuActivity : AppCompatActivity() {
             drawerLayout.closeDrawer(GravityCompat.START)
         } else {
             drawerLayout.openDrawer(GravityCompat.START)
+            
         }
     }
 }
