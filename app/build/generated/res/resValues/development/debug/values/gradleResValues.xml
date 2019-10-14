@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from product flavor: development -->
+    <string name="base_url" translatable="false">http://ec2-3-0-177-23.ap-southeast-1.compute.amazonaws.com/</string>
+    <string name="login_url" translatable="false">http://ec2-3-0-177-23.ap-southeast-1.compute.amazonaws.com/</string>
+
+</resources>
