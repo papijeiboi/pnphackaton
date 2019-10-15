@@ -20,12 +20,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.jemoje.pnphackaton.activities.QrStaffSuccessActivity" />
+        <activity android:name="com.jemoje.pnphackaton.activities.ScanQrStaffActivity" />
+        <activity android:name="com.jemoje.pnphackaton.activities.DisplayPlateActivity" />
         <activity android:name="com.jemoje.pnphackaton.activities.SearchPlateNumberActivity" />
         <activity android:name="com.jemoje.pnphackaton.activities.ScanQrActivity" />
         <activity android:name="com.jemoje.pnphackaton.activities.LoginActivity" />
-        <activity android:name="com.jemoje.pnphackaton.activities.PoliceMenuActivity" >
-        </activity>
+        <activity android:name="com.jemoje.pnphackaton.activities.PoliceMenuActivity" />
         <activity android:name="com.jemoje.pnphackaton.activities.StaffMenuActivity" />
         <activity android:name="com.jemoje.pnphackaton.activities.MainMenuActivity" />
         <activity android:name="com.jemoje.pnphackaton.activities.LandingActivity" />

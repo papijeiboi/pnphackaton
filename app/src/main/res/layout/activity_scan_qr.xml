@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="100dp"
-            android:text="Scan the qr code blah blah."
+            android:text="Scan the qr code"
             android:textAlignment="center"
             android:textColor="@color/colorWhite" />
     </FrameLayout>

@@ -13,13 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activities.SearchPlateNumberActivity"></activity>
+        <activity android:name=".activities.QrStaffSuccessActivity"></activity>
+        <activity android:name=".activities.ScanQrStaffActivity" />
+        <activity android:name=".activities.DisplayPlateActivity" />
+        <activity android:name=".activities.SearchPlateNumberActivity" />
         <activity android:name=".activities.ScanQrActivity" />
         <activity android:name=".activities.LoginActivity" />
-        <activity android:name=".activities.PoliceMenuActivity">
-
-        </activity>
+        <activity android:name=".activities.PoliceMenuActivity" />
         <activity android:name=".activities.StaffMenuActivity" />
         <activity android:name=".activities.MainMenuActivity" />
         <activity android:name=".activities.LandingActivity" />
